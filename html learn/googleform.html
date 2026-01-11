@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+</head>
+<body>
+    <form>
+        <h1>Travel Request</h1>
+        <h5>Submit travel request for approval by manager</h5>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email" required> <br> <br>
+
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" placeholder="Your answer" required> <br><br>
+
+        <label for="Destination">Destination</label>
+        <input type="text" id="Destination" name="Destination" placeholder="Your answer" required><br><br>
+
+        <label >Business purpose</label> <br><br>
+
+        <input type="radio" id="meeting" name="purpose" value="Customer meeting" required>
+        <label for="meeting">Customer meeting</label><br>
+
+        <input type="radio" id="team" name="purpose" value="Working with team" >
+        <label for="team">Working with team</label> <br>
+
+        <input type="radio"  name="purpose" id="conference" value="Attending conference">
+        <label for="conference">Attending conference</label><br>
+
+        <input type="radio" name="purpose" id="event" value="offsite fun event">
+        <label for="event" >offsite fun event</label><br>
+
+        <input type="radio" name="purpose" id="other" value="other">
+        <label for="other">Other</label> <br>
+        
+
+       <label for="date1">Start date</label>
+       <input type="date" id="date1" >
+
+       <label for="date2">End Date</label>
+       <input type="date" id="date2">
+
+       <input type="submit" >
+
+
+
+
+    </form>
+</body>
+</html>
